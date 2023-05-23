@@ -1,0 +1,34 @@
+.synth{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.field:last-child{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.controls-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
